@@ -11,7 +11,7 @@ const Hero = () => {
       {/* Animated background glow */}
       <div className="absolute inset-0 bg-gradient-accent opacity-50"></div>
       <div className="absolute top-20 left-10 w-96 h-96 bg-primary/20 rounded-full blur-3xl animate-pulse"></div>
-      <div className="absolute bottom-20 right-10 w-96 h-96 bg-primary/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
+      <div className="absolute bottom-20 right-10 w-96 h-96 bg-primary/10 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
       
       <div className="container mx-auto px-4 relative z-10 animate-fade-in-up">
         <div className="text-center max-w-4xl mx-auto">
